@@ -77,7 +77,7 @@ def run_app():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("Reference Recording (Artist)")
+        st.subheader("Artist Recording")
         audio_file1 = st.file_uploader(
             "Upload Reference Audio",
             type=["wav", "mp3", "ogg", "m4a", "flac"],
