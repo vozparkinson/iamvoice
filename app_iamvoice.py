@@ -67,7 +67,7 @@ def compute_similarity(file1, file2, scale_factor=35.0):
 
 # --- STREAMLIT UI ---
 def run_app():
-    st.set_page_config(page_title="Speech Therapy Voice Matcher", layout="centered")
+    st.set_page_config(page_title="Voice Matcher", layout="centered")
 
     st.title("🗣️ Speech Therapy Voice Similarity Analyzer")
     st.write(
