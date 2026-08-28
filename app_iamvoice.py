@@ -89,7 +89,7 @@ def run_app():
     with col2:
         st.subheader("Your Recording")
         audio_file2 = st.file_uploader(
-            "Upload Patient Audio",
+            "Upload your voice",
             type=["wav", "mp3", "ogg", "m4a", "flac"],
             key="pat",
         )
