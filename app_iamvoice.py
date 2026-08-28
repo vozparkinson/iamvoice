@@ -69,7 +69,7 @@ def compute_similarity(file1, file2, scale_factor=35.0):
 def run_app():
     st.set_page_config(page_title="Voice Matcher", layout="centered")
 
-    st.title("🗣️ Speech Therapy Voice Similarity Analyzer")
+    st.title("🗣️ Voice Similarity Analyzer")
     st.write(
         "Upload a target voice sample (e.g., therapist) and a patient sample to compare timbre and articulation profile."
     )
