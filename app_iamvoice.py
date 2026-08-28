@@ -77,7 +77,7 @@ def run_app():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("Reference Recording (Therapist)")
+        st.subheader("Reference Recording (Artist)")
         audio_file1 = st.file_uploader(
             "Upload Reference Audio",
             type=["wav", "mp3", "ogg", "m4a", "flac"],
@@ -87,7 +87,7 @@ def run_app():
             st.audio(audio_file1)
 
     with col2:
-        st.subheader("Patient Recording")
+        st.subheader("Your Recording")
         audio_file2 = st.file_uploader(
             "Upload Patient Audio",
             type=["wav", "mp3", "ogg", "m4a", "flac"],
